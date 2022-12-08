@@ -1,0 +1,54 @@
+name: example_muslim_app
+description: full projects
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+
+  assets:
+    - assets/images/namoz/niyat_qilish.png
+    - assets/images/namoz/takbir.gif
+    - assets/images/namoz/qiyom.png
+    - assets/images/namoz/ruku.gif
+    - assets/images/namoz/sajda.gif
+    - assets/images/namoz/jalsa.gif
+    - assets/images/namoz/sajda_2.gif
+    - assets/images/namoz/sajda_3.gif
+    - assets/images/namoz/qiyom_2.gif
+    - assets/images/namoz/qiyom_3.gif
+    - assets/images/namoz/qada.gif
+    - assets/images/namoz/ikkinchi_rakat.gif
+    - assets/images/namoz/salom.gif
+    - assets/images/taxorat/tahorat_niyati.gif
+    - assets/images/taxorat/burunni_chayish.gif
+    - assets/images/taxorat/duo.jpeg
+    - assets/images/taxorat/masx_tortish.gif
+    - assets/images/taxorat/og'iz_chayish.gif
+    - assets/images/taxorat/oyoqlarni_yuvish.gif
+    - assets/images/taxorat/qo'llarni_yuvish.gif
+    - assets/images/taxorat/qo'lni_tirsak_bn_yuvish.gif
+    - assets/images/taxorat/yuzni_yuvish.gif
+
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+
